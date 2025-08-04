@@ -1,0 +1,137 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #4f502c;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.main-image {
+  display: block;
+  margin: 0 auto 30px auto;
+  width: 50%;
+  border-radius: 10px;
+  margin-left:430px;
+}
+
+h3 {
+  color: #9e2ede;
+  margin-top: 25px;
+}
+
+h3 i {
+  margin-right: 8px;
+  color: #ff6f00;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  padding: 10px;
+  color: #888;
+}
+.download-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-btn {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #1a242f;
+}
+.home-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  margin-left: 900px;
+}
+
+.home-button:hover {
+  background-color: #388E3C;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+
+.nav-button {
+  margin-left: 12px;
+  padding: 10px 18px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #005fa3;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  color: #333;
+}

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f7fb;
+}
+
+.navbar {
+  background-color: #004d66;
+  padding: 12px 20px;
+  text-align: right;
+}
+
+.nav-button {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.nav-button:hover,
+.nav-button.active {
+  background-color: #007799;
+}
+
+.booking-container {
+  max-width: 550px;
+  background: white;
+  margin: 60px auto;
+  padding: 30px 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  border-radius: 12px;
+}
+
+.booking-container h2 {
+  text-align: center;
+  color: #004d66;
+  margin-bottom: 25px;
+}
+
+.booking-form input,
+.booking-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.booking-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.booking-form label {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  display: block;
+}
+
+.booking-form button {
+  background-color: #004d66;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+
+.booking-form button:hover {
+  background-color: #007799;
+}

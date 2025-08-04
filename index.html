@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+<title>Incredible India-Travel Guide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Incredible India-Travel Guide</h1>
+    <nav>
+        <a href="#kedarnath">Kedarnath</a>
+        <a href="#Varanasi">Varanasi</a>
+        <a href="#Ayodhya">Ayodhya</a>
+        <a href="#Dwaraka">Dwaraka</a>
+        <a href="#Badrinath">Badrinath</a>
+        <a href="#Haridwar">Haridwar</a>
+        <a href="#Tirupati">Tirupati</a>
+        <a href="#Puri Jagannath">Puri Jagannath</a>
+        <a href="#Shirdi">Shirdi</a>
+    </nav>
+</header>
+  <div class="search-container">
+  <input type="text" id="searchInput" placeholder="Search for a destination..." class="search-input">
+  <button onclick="searchDestination()" class="search-btn">Search</button>
+ <a href="travel.html" class="home-btn">Home</a>
+ <a href="contact.html" class="contact-btn">Contact Us</a>
+    <a href="booking.html" class="nav-button">Book Now</a>
+</section>
+</div>
+
+           </div>
+    </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Incredible India - Travel Guide</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+    }
+
+    .card {
+      width: 30%;
+      min-width: 250px;
+      text-align: center;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 10px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .btn {
+      margin-top: 10px;
+      display: inline-block;
+      background-color: dodgerblue;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #005ecf;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Incredible India - Travel Guide</h1>
+
+  <div class="gallery">
+    <div class="card">
+      <a href="kedarnath.html"><img src="kedarnath.jpeg" alt="Kedarnath"></a>
+      <a href="kedarnath.html" class="btn">Kedarnath</a>
+    </div>
+    <div class="card">
+      <a href="varanasi.html"><img src="varanasi.jpeg" alt="Varanasi"></a>
+      <a href="varanasi.html" class="btn">Varanasi</a>
+    </div>
+    <div class="card">
+      <a href="ayodhya.html"><img src="ayodhya.jpeg" alt="Ayodhya"></a>
+      <a href="ayodhya.html" class="btn">Ayodhya</a>
+    </div>
+    <div class="card">
+      <a href="dwaraka.html"><img src="dwaraka.jpg" alt="Dwaraka"></a>
+      <a href="dwaraka.html" class="btn">Dwaraka</a>
+    </div>
+    <div class="card">
+      <a href="badrinath.html"><img src="badrinath.png" alt="Badrinath"></a>
+      <a href="badrinath.html" class="btn">Badrinath</a>
+    </div>
+    <div class="card">
+      <a href="haridwar.html"><img src="haridwar.jpeg" alt="Haridwar"></a>
+      <a href="haridwar.html" class="btn">Haridwar</a>
+    </div>
+    <div class="card">
+      <a href="tirupati.html"><img src="tirupati.webp" alt="Tirupati"></a>
+      <a href="tirupati.html" class="btn">Tirupati</a>
+    </div>
+    <div class="card">
+      <a href="puri.html"><img src="purijagannath.jpg" alt="Puri Jagannath"></a>
+      <a href="puri.html" class="btn">Puri Jagannath</a>
+    </div>
+    <div class="card">
+      <a href="shirdi.html"><img src="shirdi.jpg" alt="Shirdi"></a>
+      <a href="shirdi.html" class="btn">Shirdi</a>
+    </div>
+  </div>
+
+</body>
+</html>
+<script>
+  function searchDestination() {
+    const query = document.getElementById("searchInput").value.toLowerCase();
+
+    if (query.includes("varanasi")) {
+      window.location.href = "varanasi.html";
+    } else if (query.includes("kedarnath")) {
+      window.location.href = "kedarnath.html";
+    } else if (query.includes("tirupati")) {
+      window.location.href = "tirupati.html";
+    } else if (query.includes("dwaraka") || query.includes("dwarka")) {
+      window.location.href = "dwaraka.html";
+    } else if (query.includes("ayodhya")) {
+      window.location.href = "ayodhya.html";
+    } else if (query.includes("badrinath")) {
+      window.location.href = "badrinath.html";
+    } else if (query.includes("puri")) {
+      window.location.href = "puri.html";
+    } else if (query.includes("shirdi")) {
+      window.location.href = "shirdi.html";
+    } else if (query.includes("haridwar")) {
+      window.location.href = "haridwar.html";
+    } else {
+      alert("Destination not found!");
+    }
+  }
+  </script>
+ <footer style=" background-color: white;
+  color: #2c2929;
+  text-align: center;
+  padding-top: 45px;
+  font-size: 18px;
+  margin-top: 10px;"><footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>Incredible India</h3>
+      <p>Your spiritual and cultural travel companion across India’s divine destinations.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="travel.html">Destinations</a></li>
+        <li><a href="booking.html">Book Now</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: <a href="mailto:travelindia@example.com">travelindia@example.com</a></p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Address: Hyderabad, Telangana, India</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://instagram.com/" target="_blank"><img src="icons/instagram.png" alt="Instagram"></a>
+        <a href="https://facebook.com/" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="icons/twitter.png" alt="Twitter"></a>
+        <a href="mailto:travelindia@example.com"><img src="icons/email.png" alt="Email"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy 2025 Incredible India Travel Guide.</p>
+  </div>
+</footer>
+ 

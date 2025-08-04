@@ -1,0 +1,128 @@
+.title{
+
+    text-align: center;
+    font-style:italic;
+}
+.map-container{
+    margin-top:30px;
+    border:4px solid #1f4e79;
+    border-radius: 10px;
+    over-flow:hidden;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.card {
+  max-width: 800px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.main-img {
+  display: block;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #2b3e50;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #005b96;
+  margin-top: 30px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section ul {
+  padding-left: 30px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+.download-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-btn {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #1a242f;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+
+.nav-button {
+  margin-left: 12px;
+  padding: 10px 18px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #005fa3;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  color: #333;
+}

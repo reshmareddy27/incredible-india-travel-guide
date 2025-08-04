@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8ff;
+  color: #222222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #4b0082;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  font-size: 1.4rem;
+  color: #2e0d6e;
+  font-weight: bold;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.place-image {
+  width:50%;
+  border-radius: 12px;
+  margin: 10px 0 30px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul.reason-list {
+  text-align: left;
+}
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+.download-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-btn {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #1a242f;
+}
+.home-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+  margin-left: 900px;
+}
+
+.home-button:hover {
+  background-color: #388E3C;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+
+.nav-button {
+  margin-left: 12px;
+  padding: 10px 18px;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #005fa3;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+  color: #333;
+}

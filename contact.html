@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact us.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("jyWpj_WDRU1BfoKW_"); // Replace with your actual public key
+    })();
+  </script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="contact.html"class="active">Contact Us</a>
+  </div>
+
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="title" placeholder="Subject Title" required />
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="status-message"></p>
+  </div>
+
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_vi9wjgx", "template_o65ptmh", this)
+        .then(function() {
+          document.getElementById("status-message").innerText = "Message sent successfully!";
+        }, function(error) {
+          document.getElementById("status-message").innerText = "Failed to send message.";
+          console.error(error);
+        });
+
+      this.reset();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Your Trip</title>
+  <link rel="stylesheet" href="style10.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("jyWpj_WDRU1BfoKW_"); // Replace with your public key
+    })();
+
+    function sendBooking(e) {
+      e.preventDefault();
+
+      emailjs.sendForm('service_vi9wjgx', 'template_o65ptmh', e.target)
+        .then(() => {
+          alert("Booking request sent successfully!");
+          e.target.reset();
+        }, (error) => {
+          console.log(error);
+          alert("Something went wrong!");
+        });
+    }
+  </script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html" class="nav-button">Home</a>
+    <a href="contact.html" class="nav-button">Contact Us</a>
+    <a href="booking.html" class="nav-button active">Booking</a>
+  </div>
+
+  <div class="booking-container">
+    <h2>Book Your Spiritual Journey</h2>
+    <form class="booking-form" onsubmit="sendBooking(event)">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="text" name="destination" placeholder="Destination (e.g., Kedarnath)" required>
+      <label>Start Date</label>
+      <input type="date" name="start_date" required>
+      <label>End Date</label>
+      <input type="date" name="end_date" required>
+      <textarea name="message" placeholder="Additional Information (optional)"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</body>
+</html>
